@@ -22,6 +22,80 @@
 ## Project Overview
 The Smart Water Distribution & Irrigation Management System automates water consumption tracking, meter monitoring, sector-level analytics, and auditing. The system enforces business rules to prevent unauthorized updates on weekdays and public holidays, and supports BI-ready data for reporting and analysis.
 
+
+
+
+
+
+
+
+
+
+---
+
+
+
+---
+
+## **Objective**
+
+Identify real-world problems in water consumption tracking and define a system scope with Oracle PL/SQL database and BI potential.
+
+---
+
+## **Problem Definition**
+
+* Manual recording leads to errors, delays, and inconsistent data.
+* Difficulty auditing consumption and tracking anomalies.
+* Reporting is slow and not real-time, affecting decision-making.
+
+---
+
+## **Context**
+
+The system will operate across **districts, sectors, and irrigation zones**, used by administrators, technicians, auditors, and planners to ensure accurate water tracking and reporting.
+
+---
+
+## **Target Users**
+
+1. Water Meter Administrators
+2. Field Technicians / Employees
+3. Auditors / Managers
+4. Government / Water Authorities
+
+---
+
+## **Project Goals / Expected Outcomes**
+
+* Automate consumption recording
+* Enforce business rules (weekday/holiday restrictions)
+* Audit all changes
+* Accurate reporting and BI dashboards
+* Reduce errors, improve operational efficiency
+
+---
+
+## **BI Potential**
+
+* Track sector/location water usage trends
+* Identify anomalies and potential leaks
+* Generate KPIs for resource planning
+* Support predictive irrigation management
+
+---
+
+
+---
+
+## **Deliverable**
+
+* `/documentation/Phase_I_Problem_Identification.pdf` → This PDF includes all above sections, ready for GitHub submission.
+
+---
+
+
+
 ---
 
 ## Phase II – Business Process Modeling (BPMN)
