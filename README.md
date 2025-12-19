@@ -1,7 +1,7 @@
-# Smart-Water-Distribution-Irrigation-Tracking-System.
-
 # Smart Water Distribution & Irrigation Management System
+--
 ** PL/SQL  Project**
+--
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Phases](https://img.shields.io/badge/Phases-I_to_VIII_Done-blue)
