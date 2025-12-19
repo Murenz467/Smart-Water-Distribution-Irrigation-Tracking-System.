@@ -10,7 +10,7 @@
 ---
 
 ### Student Information
-- **Name:** Charles [Your Last Name]
+- **Name:** Charles Murenzi
 - **Student ID:** 27386
 - **Institution:** Adventist University of Central Africa (AUCA)
 - **Course:** Database Development with PL/SQL (INSY 8311)
