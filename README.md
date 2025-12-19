@@ -26,7 +26,6 @@ The Smart Water Distribution & Irrigation Management System automates water cons
 ---
 
 
-
 ---
 
 ## **Objective**
@@ -82,6 +81,8 @@ The system will operate across **districts, sectors, and irrigation zones**, use
 
 ## **Deliverable**
 
+
+
 * `/documentation/Phase_I_Problem_Identification.pdf` → This PDF includes all above sections, ready for GitHub submission.
 
 ---
@@ -114,7 +115,8 @@ The system will operate across **districts, sectors, and irrigation zones**, use
 - Day Allowed? → Yes: insert / No: log denied attempt
 
 
-**Tools:** Lucidchart, draw.io, Canva (use swimlanes for actors)
+**Tools:** bpmn
+![Here are the bpmn that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Diagram/bpmn-c.jpeg?raw=true)
 
 ---
 
