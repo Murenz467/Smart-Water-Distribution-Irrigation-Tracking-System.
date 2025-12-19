@@ -4,7 +4,7 @@
 ** PL/SQL  Project**
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-![Phases](https://img.shields.io/badge/Phases-II_to_V_Done-blue)
+![Phases](https://img.shields.io/badge/Phases-I_to_VIII_Done-blue)
 ![Database](https://img.shields.io/badge/Oracle-21c_XE-red)
 
 ---
@@ -21,14 +21,6 @@
 
 ## Project Overview
 The Smart Water Distribution & Irrigation Management System automates water consumption tracking, meter monitoring, sector-level analytics, and auditing. The system enforces business rules to prevent unauthorized updates on weekdays and public holidays, and supports BI-ready data for reporting and analysis.
-
-
-
-
-
-
-
-
 
 
 ---
@@ -243,24 +235,48 @@ The system will operate across **districts, sectors, and irrigation zones**, use
 
 
 
+## **References**
 
+* Oracle Corporation. (2021). Oracle Database 21c Documentation. [https://docs.oracle.com/en/database/oracle/oracle-database/21/](https://docs.oracle.com/en/database/oracle/oracle-database/21/)
+* Feuerstein, S., & Pribyl, B. (2021). Oracle PL/SQL Programming (7th ed.). O'Reilly Media.
+* Connolly, T., & Begg, C. (2015). Database Systems: A Practical Approach to Design, Implementation, and Management (6th ed.). Pearson.
+* Elmasri, R., & Navathe, S. B. (2016). Fundamentals of Database Systems (7th ed.). Pearson.
+* Date, C. J. (2019). Database Design and Relational Theory: Normal Forms and All That Jazz (2nd ed.). Apress.
 
+---
 
+## **Acknowledgment**
 
+I sincerely thank Mr. Eric Maniraguha and the IT Faculty at AUCA for their guidance, support, and advice while I worked on this project.
 
-
-
-
+---
 
 
 ---
 
 **Declaration:**  
-I confirm that this work is original and complies with AUCA’s academic integrity policy. All code, documentation, and testing results were generated individually for this Capstone Project.
+
+I confirm that this work is original and complies with AUCA’s academic integrity 
+policy. All code, documentation, and testing results were generated individually 
+for this Capstone Project.
+
+
+---
+
+## **Delivery Requirements**
+
+* **Course:** Database Development with PL/SQL (INSY 8311)
+* **Academic Year:** 2025-2026 | Semester: I
+* **Institution:** Adventist University of Central Africa (AUCA)
+* **Project Completion Date:** December 9, 2025
+
+---
 
 
 
+---
 
+> "Good health starts with proper tracking and care."
 
-
+---
 
