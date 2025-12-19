@@ -153,6 +153,44 @@ The system will operate across **districts, sectors, and irrigation zones**, use
 
 ---
 
+
+
+# **Phase IV: Database Creation (Oracle PDB) -
+
+## **Overview**
+Successfully created a complete Oracle database environment for the Smart Water Tracker system using Oracle's Pluggable Database (PDB) architecture.
+
+## **Accomplished Tasks**
+
+### **1. Database Setup**
+- Created Pluggable Database (PDB): **`Thur_27386_charles_SWIT_DB`**
+- Configured with admin user: **`switracker`** (password: `Murenzi`)
+- Database files stored in: `C:\dbms_oracle\oradata\XE\Thur_27386_charles_SWIT_DB\`
+![Database created and operational  ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/creation%20of%20pdb%20and%20tablespace.png?raw=true)
+
+### **2. Storage Structure**
+Created three specialized storage areas (tablespaces):
+- **`water_consomation`** - Main storage for application data (100MB, auto-extending)
+- **`water_index`** - For database performance indexes (50MB, auto-extending)  
+- **`water_temp`** - Temporary workspace for database operations (50MB, auto-extending)
+![table space ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/creation%20of%20pdb%20and%20tablespace.png?raw=true)
+
+### **3. Security & Access**
+- Created dedicated admin account: **`switracker`**
+- Granted full privileges: CONNECT, RESOURCE, and DBA roles
+- Configured proper access controls and storage quotas
+
+### **4. Connection Ready**
+- Database is open and accessible
+- Can connect via SQL Developer using:
+- Admin user created with full privileges  
+  - Username: `switracker`
+  - Password: `Murenzi`
+  - Service: `Thur_27386_charles_SWIT_DB`
+![Admin user created with full privileges ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/pldeveloper%20for%20pdb%20connection.png?raw=true)
+
+
+
 ## Phase V – Table Implementation & Data Insertion
 
 **Objective:** Implement physical tables, populate with realistic test data, and validate integrity.
