@@ -83,7 +83,7 @@ The system will operate across **districts, sectors, and irrigation zones**, use
 
 
 
-* `/documentation/Phase_I_Problem_Identification.pdf` → This PDF includes all above sections, ready for GitHub submission.
+* (https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Document/Phase_I_Problem_Identification.pdf) → This PDF includes all above sections, ready for GitHub submission.
 
 ---
 
@@ -255,17 +255,17 @@ Created three specialized storage areas (tablespaces):
     
 * Window functions (`RANK()`, `DENSE_RANK()`, `LAG()`, `LEAD()`) for ranking and month-to-month comparisons
 
- → [Window function queries](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Script/window%20functio.sql)
+→ [Window function queries](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Script/window%20functio.sql)
  
- ![Here are the window function that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/table%20of%20windowfunction1.png)
+![Here are the window function that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/table%20of%20windowfunction1.png)
   
 * PL/SQL package `switracker_pkg` containing all procedures and functions with exception handling
 
- [Package specification & Package body](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./tree/main/Script)
+[Package specification & Package body](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./tree/main/Script)
 
 
 
-  ![Here are the package and exception handling  for my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/package%20creation.png)
+![Here are the package and exception handling  for my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/package%20creation.png)
 * Testing scripts to validate functions, cursors, and packages
 
 **Where to Put Scripts:**
@@ -329,11 +329,6 @@ Only **weekend operations** are allowed.
  ![creation of triggers ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/trigers%20creation%20.png?raw=true)
 
 
-
----
-
-
-
 **Deliverables:**
 
 * `HOLIDAYS` table → Stores restricted dates
@@ -345,10 +340,121 @@ Only **weekend operations** are allowed.
 * Compound triggers for statement-level auditing and enforcement
 * Tested all scenarios: weekdays (DENIED), weekends (ALLOWED), public holidays (DENIED)
 
-**Where to Put Scripts:**
+--- 
+---
 
-* `/database/scripts/11_Restriction_Trigger.sql` → Restriction triggers
-* `/database/scripts/12_Audit_Trigger.sql` → Audit logging triggers
+
+
+# **PHASE VIII – Business Intelligence & Oracle Enterprise Manager (OEM)**
+
+## **Objective**
+
+To monitor database performance using **Oracle Enterprise Manager (OEM)** and apply **Business Intelligence (BI)** techniques to support decision-making through analytics, KPIs, and dashboards.
+
+---
+
+## **Part A: Oracle Enterprise Manager (OEM)**
+
+### **Purpose of OEM**
+
+Oracle Enterprise Manager is used to:
+
+* Monitor database performance
+* Track resource usage
+* Detect bottlenecks
+* Ensure system stability and availability
+
+---
+
+### **OEM Configuration**
+
+* Connected to Oracle Database 21c XE
+* Logged in using:
+
+  * **Username:** Thur_27386_charles_SWIT_DB **
+  * container :** switracker **
+  * **Password:** Murenzi
+* Database monitored locally through OEM web console
+
+---
+
+### **OEM Monitoring Areas Covered**
+[oracle enterprise login](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/OEM/oem%20login.png)
+* CPU usage
+* Memory utilization
+* Active sessions
+* Tablespace usage
+* SQL execution performance
+
+---
+
+### **OEM Evidence **
+
+
+* OEM dashboard overview
+  [the dashboard overview](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/OEM/oem.html)
+* CPU and memory performance graphs
+  [ CPU and memory performance graphs](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/OEM/oem%20performance.png)
+  
+* Active sessions monitoring
+* [Active sessions monitoring](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/OEM/oem%20performance.png)
+* Database health status
+---
+
+## **Part B: Business Intelligence (BI)**
+
+### **BI Objective**
+
+To transform water consumption data into **meaningful insights** that support planning, monitoring, and policy decisions.
+
+---
+
+### **Key Stakeholders**
+
+* Water utility managers
+* System administrators
+* Auditors
+* Government planners
+
+---
+
+### **Key Performance Indicators (KPIs)**
+
+* Total water consumption per sector
+* Monthly consumption trends
+* Highest and lowest consuming meters
+* Consumption growth or decline by location
+* Number of restricted or denied transactions
+
+---
+
+
+
+---
+
+### **Dashboard Mockups**
+
+The following BI dashboards were designed:
+
+1. **Executive Summary Dashboard**
+
+   * KPI cards
+   * Monthly consumption trends
+
+2. **Audit & Compliance Dashboard**
+
+   * Denied vs allowed operations
+   * Activity over time
+
+3. **Performance Dashboard**
+
+   * Sector-wise consumption
+   * Meter efficiency comparison
+
+
+
+---
+
 
 
 
@@ -365,7 +471,7 @@ Only **weekend operations** are allowed.
 
 ## **Acknowledgment**
 
-I sincerely thank Mr. Eric Maniraguha and the IT Faculty at AUCA for their guidance, support, and advice while I worked on this project.
+I sincerely thank Mr. Eric Maniraguha and the IT Faculty at AUCA for their guidance, support, and advice while I was studing this course.
 
 ---
 
