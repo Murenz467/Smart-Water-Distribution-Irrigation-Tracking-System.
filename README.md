@@ -145,6 +145,12 @@ The system will operate across **districts, sectors, and irrigation zones**, use
 
 **BI Considerations:** Fact table = WATER_CONSUMPTION; Dimensions = LOCATIONS, WATER_SECTORS, SYSTEM_USERS
 
+![Here are the ER diagram that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Diagram/ER%20diagram-c.jpeg?raw=true)
+
+![Here are the ER diagram that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Diagram/er%20diagram%20of%20the%20project.png?raw=true)
+
+
+
 ---
 
 ## Phase V – Table Implementation & Data Insertion
@@ -155,15 +161,14 @@ The system will operate across **districts, sectors, and irrigation zones**, use
 - Core tables and support tables created with proper Oracle data types
 - PKs, FKs, and constraints (NOT NULL, UNIQUE, CHECK, DEFAULT) enforced
 - Indexes created for performance optimization
+![Here are the tables shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/creation%20of%20tables.png?raw=true)
 
-**Support Tables:**
-- HOLIDAYS: Stores restricted dates
-- AUDIT_LOG: Tracks all insert/update/delete attempts
 
 **Data Insertion:**
 - Hundreds of realistic rows per main table
 - Includes normal and edge cases
 - Validates all constraints and business rules
+![Here are the ER diagram that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Diagram/ER%20diagram-c.jpeg?raw=true)
 
 **Data Integrity Verification:**
 - All constraints enforced
@@ -193,9 +198,23 @@ The system will operate across **districts, sectors, and irrigation zones**, use
 * 5 functions for validation, calculation, and lookup:
 
   * `is_valid_meter`, `get_total_consumption`, `get_average_consumption`, `get_max_consumption`, `get_user_role`
-* Explicit and bulk collect cursors for multi-row processing
+
+
+   ![Here are the function that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/creation%20of%20function.png)
+
+ * Procedure to log DML operations consistently
+  ![Here are the procedure that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/creation%20of%20the%20all%20procedures.png)
+
+  * Explicit and bulk collect cursors for multi-row processing
+    ![Here are the cursor that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/cursor%20creation%20.png)
+    
 * Window functions (`RANK()`, `DENSE_RANK()`, `LAG()`, `LEAD()`) for ranking and month-to-month comparisons
+
+ ![Here are the window function that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/table%20of%20windowfunction1.png)
+  
 * PL/SQL package `switracker_pkg` containing all procedures and functions with exception handling
+
+  ![Here are the package and exception handling  for my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/package%20creation.png)
 * Testing scripts to validate functions, cursors, and packages
 
 **Where to Put Scripts:**
@@ -213,6 +232,10 @@ The system will operate across **districts, sectors, and irrigation zones**, use
 
 **Business Rules:**
 
+**Support Tables:**
+- HOLIDAYS: Stores restricted dates
+- AUDIT_LOG: Tracks all insert/update/delete attempts
+
 * Employees cannot INSERT/UPDATE/DELETE:
 
   * ❌ Weekdays (Monday–Friday)
@@ -223,6 +246,7 @@ The system will operate across **districts, sectors, and irrigation zones**, use
 
 * `HOLIDAYS` table → Stores restricted dates
 * `AUDIT_LOG` table → Logs all DML attempts (user, action, table, timestamp, status, message)
+* 
 * Procedure to log DML operations consistently
 * Function to check restriction based on day and holidays
 * Simple triggers enforcing restriction rules and logging attempts
