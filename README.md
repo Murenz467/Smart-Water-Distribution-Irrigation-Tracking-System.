@@ -206,7 +206,6 @@ Created three specialized storage areas (tablespaces):
 - Hundreds of realistic rows per main table
 - Includes normal and edge cases
 - Validates all constraints and business rules
-![Here are the ER diagram that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Diagram/ER%20diagram-c.jpeg?raw=true)
 
 **Data Integrity Verification:**
 - All constraints enforced
@@ -257,28 +256,69 @@ Created three specialized storage areas (tablespaces):
 
 **Where to Put Scripts:**
 
-* `/database/scripts/switracker_pkg_spec.sql` → Package specification
-* `/database/scripts/switracker_pkg_body.sql` → Package body
+* `Script/package creation body and.sql` → Package specification & Package body
 * `/queries/analytics_queries.sql` → Window function queries
 * `/queries/test_phaseVI.sql` → Test scripts
 
 ---
+---
 
 ## **Phase VII – Advanced Programming & Auditing**
 
-**Objective:** Enforce business rules, implement triggers, and perform auditing.
+**Objective:**
+Enforce business rules using triggers and ensure all database activities are audited.
 
-**Business Rules:**
+---
 
-**Support Tables:**
-- HOLIDAYS: Stores restricted dates
-- AUDIT_LOG: Tracks all insert/update/delete attempts
+### **Business Rule**
 
-* Employees cannot INSERT/UPDATE/DELETE:
+Employees are **NOT allowed** to perform **INSERT, UPDATE, or DELETE** operations:
 
-  * ❌ Weekdays (Monday–Friday)
-  * ❌ Public holidays
-* Operations allowed only on weekends
+* ❌ On **weekdays (Monday–Friday)**
+* ❌ On **public holidays**
+
+Only **weekend operations** are allowed.
+
+---
+
+### **Support Tables**
+
+* **HOLIDAYS**
+  Stores official public holiday dates used to restrict database operations.
+
+* **AUDIT_LOG**
+  Records **all DML attempts** (allowed or denied), including:
+
+  * Username
+  * Operation type
+  * Date & time
+  * Status (ALLOWED / DENIED)
+
+ ![creation of suport tables ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/creation%20of%20the%20tables%20for%20phase7.png?raw=true)
+
+---
+
+### **Triggers & Enforcement**
+
+* **Restriction Trigger**
+
+  * Checks the current day and holiday status before any DML operation
+  * Blocks restricted operations with a clear error message
+
+* **Audit Trigger**
+
+  * Logs every INSERT, UPDATE, or DELETE attempt
+  * Records both successful and blocked actions
+
+---
+
+ ![creation of triggers ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/trigers%20creation%20.png?raw=true)
+
+
+
+---
+
+
 
 **Deliverables:**
 
