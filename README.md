@@ -236,29 +236,38 @@ Created three specialized storage areas (tablespaces):
 
   * `is_valid_meter`, `get_total_consumption`, `get_average_consumption`, `get_max_consumption`, `get_user_role`
 
+[function script](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Script/all-function.sql)
 
    ![Here are the function that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/creation%20of%20function.png)
 
  * Procedure to log DML operations consistently
+
+ → [procedure ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Script/all-procedure%20created.sql)
+   
   ![Here are the procedure that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/creation%20of%20the%20all%20procedures.png)
 
-  * Explicit and bulk collect cursors for multi-row processing
-    ![Here are the cursor that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/cursor%20creation%20.png)
+* Explicit and bulk collect cursors for multi-row processing
+[cursor script ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Script/all-cursor.sql)
+  
+![Here are the cursor that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/cursor%20creation%20.png)
     
 * Window functions (`RANK()`, `DENSE_RANK()`, `LAG()`, `LEAD()`) for ranking and month-to-month comparisons
 
+ → [Window function queries](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Script/window%20functio.sql)
+ 
  ![Here are the window function that shows my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/table%20of%20windowfunction1.png)
   
 * PL/SQL package `switracker_pkg` containing all procedures and functions with exception handling
+
+ [Package specification & Package body](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./tree/main/Script)
+
+
 
   ![Here are the package and exception handling  for my project ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/package%20creation.png)
 * Testing scripts to validate functions, cursors, and packages
 
 **Where to Put Scripts:**
 
-* `Script/package creation body and.sql` → Package specification & Package body
-* `/queries/analytics_queries.sql` → Window function queries
-* `/queries/test_phaseVI.sql` → Test scripts
 
 ---
 ---
@@ -293,6 +302,8 @@ Only **weekend operations** are allowed.
   * Operation type
   * Date & time
   * Status (ALLOWED / DENIED)
+ 
+    [table support creation ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Script/phase7%20creation%20of%20tables.sql)
 
  ![creation of suport tables ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/creation%20of%20the%20tables%20for%20phase7.png?raw=true)
 
@@ -311,6 +322,7 @@ Only **weekend operations** are allowed.
   * Records both successful and blocked actions
 
 ---
+[trigers script](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Script/trigers%20.sql)
 
  ![creation of triggers ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/trigers%20creation%20.png?raw=true)
 
