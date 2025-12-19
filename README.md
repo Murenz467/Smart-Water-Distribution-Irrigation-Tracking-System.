@@ -108,14 +108,85 @@ The Smart Water Distribution & Irrigation Management System automates water cons
 - Aggregations
 - Logical consistency confirmed
 
-**Phase V Completion:** ✔ Tables created ✔ Support tables added ✔ Data inserted ✔ Integrity verified
 
 ---
 
-**Next Phases:** Phase VI (PL/SQL Development) and Phase VII (Advanced Programming & Auditing) will build procedures, functions, packages, triggers, and business rules.
+
+---
+
+
+
+## **Phase VI – Database Interaction & Transactions**
+
+**Objective:** Implement PL/SQL procedures, functions, cursors, window functions, and packages to interact with the database.
+
+**Deliverables:**
+
+* 5 functions for validation, calculation, and lookup:
+
+  * `is_valid_meter`, `get_total_consumption`, `get_average_consumption`, `get_max_consumption`, `get_user_role`
+* Explicit and bulk collect cursors for multi-row processing
+* Window functions (`RANK()`, `DENSE_RANK()`, `LAG()`, `LEAD()`) for ranking and month-to-month comparisons
+* PL/SQL package `switracker_pkg` containing all procedures and functions with exception handling
+* Testing scripts to validate functions, cursors, and packages
+
+**Where to Put Scripts:**
+
+* `/database/scripts/switracker_pkg_spec.sql` → Package specification
+* `/database/scripts/switracker_pkg_body.sql` → Package body
+* `/queries/analytics_queries.sql` → Window function queries
+* `/queries/test_phaseVI.sql` → Test scripts
+
+---
+
+## **Phase VII – Advanced Programming & Auditing**
+
+**Objective:** Enforce business rules, implement triggers, and perform auditing.
+
+**Business Rules:**
+
+* Employees cannot INSERT/UPDATE/DELETE:
+
+  * ❌ Weekdays (Monday–Friday)
+  * ❌ Public holidays
+* Operations allowed only on weekends
+
+**Deliverables:**
+
+* `HOLIDAYS` table → Stores restricted dates
+* `AUDIT_LOG` table → Logs all DML attempts (user, action, table, timestamp, status, message)
+* Procedure to log DML operations consistently
+* Function to check restriction based on day and holidays
+* Simple triggers enforcing restriction rules and logging attempts
+* Compound triggers for statement-level auditing and enforcement
+* Tested all scenarios: weekdays (DENIED), weekends (ALLOWED), public holidays (DENIED)
+
+**Where to Put Scripts:**
+
+* `/database/scripts/11_Restriction_Trigger.sql` → Restriction triggers
+* `/database/scripts/12_Audit_Trigger.sql` → Audit logging triggers
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
 **Declaration:**  
 I confirm that this work is original and complies with AUCA’s academic integrity policy. All code, documentation, and testing results were generated individually for this Capstone Project.
+
+
+
+
+
+
 
