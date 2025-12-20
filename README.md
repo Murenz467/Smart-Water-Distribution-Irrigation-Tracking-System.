@@ -414,7 +414,7 @@ Oracle Enterprise Manager is used to:
 
 
 * OEM dashboard overview
-  ![the dashboard overview](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/OEM/oem.html)
+  [the dashboard overview](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/OEM/oem.html)
 * CPU and memory performance graphs
   ![ CPU and memory performance graphs](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/OEM/oem%20performance.png)
   
