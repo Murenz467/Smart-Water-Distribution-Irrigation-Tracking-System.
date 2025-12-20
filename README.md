@@ -304,8 +304,9 @@ Only **weekend operations** are allowed.
   * Operation type
   * Date & time
   * Status (ALLOWED / DENIED)
+ ---
  
-    [table support creation ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Script/phase7%20creation%20of%20tables.sql)
+![table support creation ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Script/phase7%20creation%20of%20tables.sql)
 
  ![creation of suport tables ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/all_screenshots/creation%20of%20the%20tables%20for%20phase7.png?raw=true)
 
