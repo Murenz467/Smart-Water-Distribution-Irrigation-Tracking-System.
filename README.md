@@ -19,6 +19,23 @@
 
 ---
 
+
+
+
+
+
+# Table of Contents
+
+1. [Phase I – Project Overview](#phase-i--project-overview)
+2. [Phase II – Business Process Modeling (BPMN)](#phase-ii--business-process-modeling-bpmn)
+3. [Phase III – Logical Database Design (ER Diagram & Data Dictionary)](#phase-iii--logical-database-design-er-diagram--data-dictionary)
+4. [Phase IV – Database Creation (Oracle PDB)](#phase-iv--database-creation-oracle-pdb)
+5. [Phase V – Table Implementation & Data Insertion](#phase-v--table-implementation--data-insertion)
+6. [Phase VI – PL/SQL Development: Functions, Procedures & Packages](#phase-vi--plsql-development-functions-procedures--packages)
+7. [Phase VII – Advanced Programming & Auditing (Triggers & Audit Logs)](#phase-vii--advanced-programming--auditing-triggers--audit-logs)
+8. [Phase VIII – Business Intelligence & Oracle Enterprise Manager (OEM)](#phase-viii--business-intelligence--oracle-enterprise-manager-oem)
+
+
 ## Project Overview
 The Smart Water Distribution & Irrigation Management System automates water consumption tracking, meter monitoring, sector-level analytics, and auditing. The system enforces business rules to prevent unauthorized updates on weekdays and public holidays, and supports BI-ready data for reporting and analysis.
 
@@ -83,7 +100,7 @@ The system will operate across **districts, sectors, and irrigation zones**, use
 
 
 
-* (https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Document/Phase_I_Problem_Identification.pdf) → This PDF includes all above sections, ready for GitHub submission.
+* [the pdf document that shows the highlight the project](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/Document/Phase_I_Problem_Identification.pdf) → This PDF includes all above sections, ready for GitHub submission.
 
 ---
 
