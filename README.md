@@ -36,6 +36,10 @@
 8. [Phase VIII – Business Intelligence & Oracle Enterprise Manager (OEM)](#phase-viii--business-intelligence--oracle-enterprise-manager-oem)
 
 
+
+
+## Phase I – Project Overview
+
 ## Project Overview
 The Smart Water Distribution & Irrigation Management System automates water consumption tracking, meter monitoring, sector-level analytics, and auditing. The system enforces business rules to prevent unauthorized updates on weekdays and public holidays, and supports BI-ready data for reporting and analysis.
 
