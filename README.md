@@ -31,7 +31,7 @@
 3. [Phase III – Logical Database Design (ER Diagram & Data Dictionary)](#phase-iii--logical-database-design-er-diagram--data-dictionary)
 4. [Phase IV – Database Creation (Oracle PDB)](#phase-iv--database-creation-oracle-pdb)
 5. [Phase V – Table Implementation & Data Insertion](#phase-v--table-implementation--data-insertion)
-6. [Phase VI – PL/SQL Development: Functions, Procedures & Packages](#Phase VII – Advanced Programming & Auditing**)
+6. [Phase VI – PL/SQL Development: Functions, Procedures & Packages](#Phase-VII-–Advanced-Programming-&-Auditing)
 7. [Phase VII – Advanced Programming & Auditing (Triggers & Audit Logs)](#phase-vii--advanced-programming--auditing-triggers--audit-logs)
 8. [Phase VIII – Business Intelligence & Oracle Enterprise Manager (OEM)](#phase-viii--business-intelligence--oracle-enterprise-manager-oem)
 
