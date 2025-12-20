@@ -463,16 +463,17 @@ The following BI dashboards were designed:
    * KPI cards
    * Monthly consumption trends
 
+![Here are wate consumed ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/BI%20and%20innovation/admin%20privarage%20on%20powre%20bi.png?raw=true)
 2. **Audit & Compliance Dashboard**
 
    * Denied vs allowed operations
    * Activity over time
-
+![Here are project that shows the audit admin privilege](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/BI%20and%20innovation/admin%20privarage%20on%20powre%20bi.png?raw=true)
 3. **Performance Dashboard**
 
    * Sector-wise consumption
    * Meter efficiency comparison
-
+![Here the meters consumed ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/BI%20and%20innovation/meters%20consumed%20power%20bi.png?raw=true)
 
 
 ---
