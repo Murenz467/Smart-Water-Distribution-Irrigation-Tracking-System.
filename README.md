@@ -463,7 +463,7 @@ The following BI dashboards were designed:
    * KPI cards
    * Monthly consumption trends
 
-![Here are wate consumed ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/BI%20and%20innovation/admin%20privarage%20on%20powre%20bi.png?raw=true)
+![Here are wate consumed ](https://github.com/Murenz467/Smart-Water-Distribution-Irrigation-Tracking-System./blob/main/BI%20and%20innovation/business%20intellingence%20for%20water%20consumed.png?raw=true)
 2. **Audit & Compliance Dashboard**
 
    * Denied vs allowed operations
